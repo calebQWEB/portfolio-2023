@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+        background-color: var(--body);
+}
+
+:root {
+        --body: #81C3D7;
+        --secondary: #3D8CA8;
+        --headers: 'Russo One', sans-serif;
+}
+
+::-webkit-scrollbar {
+        width: 0.3em;
+}
+
+::-webkit-scrollbar-track {
+        background-color: var(--secondary);
+}
+
+::-webkit-scrollbar-thumb {
+        background-color: var(--body);
+        border-radius: 0.3125rem;
+        cursor: pointer;
+}
+
+.swing-in-top-fwd {
+        -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+        animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+
+@-webkit-keyframes swing-in-top-fwd {
+        0% {
+                -webkit-transform: rotateX(-100deg);
+                transform: rotateX(-100deg);
+                -webkit-transform-origin: top;
+                transform-origin: top;
+                opacity: 0;
+        }
+
+        100% {
+                -webkit-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+                -webkit-transform-origin: top;
+                transform-origin: top;
+                opacity: 1;
+        }
+}
+
+@keyframes swing-in-top-fwd {
+        0% {
+                -webkit-transform: rotateX(-100deg);
+                transform: rotateX(-100deg);
+                -webkit-transform-origin: top;
+                transform-origin: top;
+                opacity: 0;
+        }
+
+        100% {
+                -webkit-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+                -webkit-transform-origin: top;
+                transform-origin: top;
+                opacity: 1;
+        }
+}

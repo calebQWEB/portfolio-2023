@@ -1,0 +1,218 @@
+@media screen and (max-width: 1440px) {
+    .calebq__email-main {
+        padding: 3rem;
+        margin-top: 7rem;
+    
+        background: linear-gradient(to right, 
+        var(--body) 0%,
+        var(--body) 50%,
+        var(--secondary) 50%,
+        var(--secondary) 100%);
+        overflow-x: hidden;
+    }
+    
+    .calebq__email-header {
+        margin-bottom: 1rem;
+        font-size: 2.25rem;
+        letter-spacing: 0.125rem;
+    }
+    
+    .calebq__email-pararaph {
+        font-size: 1.25rem;
+    }
+    
+    .calebq__email-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .calebq__email-form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 70%;
+    }
+
+    .input {
+        width: 100%;
+        padding: 0.8rem;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 1.125rem;
+    }
+    
+    .input-container span, 
+    .message-section span{
+        width: 100%;
+        height: 0.125rem;
+        background-color: black;
+        display: block;
+    }
+    
+    .text-area {
+        width: 100%;
+        padding: 0 0.8rem;
+        margin-top: 1rem;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 1.125rem;
+    }
+    
+    ::placeholder {
+        font-size: 1.125rem;
+        color: black;
+    }
+
+    .calebq__email-image {
+        max-width: 30.375rem;
+    }
+    
+    .calebq__email-button {
+        max-width: 8.25rem;
+        padding: 0.8rem;
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: var(--secondary);
+        border: none;
+        cursor: pointer;
+        position: relative;
+    
+        z-index: 1;
+    }
+    
+    .calebq__email-button::after {
+        content: '';
+        display: block;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 0;
+    }
+    
+    .calebq__email-button:hover::after {
+        content: '';
+        display: block;
+        background-color: var(--secondary);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        transition: 0.5s;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .calebq__email-header {
+        font-size: 2.125rem;
+    }
+    
+    .calebq__email-pararaph {
+        font-size: 1rem;
+    }
+
+    .calebq__email-image {
+        max-width: 238.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .calebq__email-main {
+        padding: 1.5rem;
+        margin-top: 7rem;
+    }
+
+    .calebq__email-header {
+        font-size: 1.75rem;
+    }
+    
+    .calebq__email-image {
+        width: 100%;
+    }
+
+    .calebq__email-button {
+        width: 6rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .calebq__email-main {
+        padding: 1rem;
+    }
+
+    .calebq__email-header {
+        font-size: 1.5rem;
+    }
+
+    .calebq__email-pararaph {
+        font-size: 0.8rem;
+    }
+    
+    .calebq__email-button {
+        width: 5rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .calebq__email-main {
+        background: linear-gradient(to bottom, 
+        var(--secondary) 0%,
+        var(--secondary) 50%,
+        var(--body) 50%,
+        var(--body) 100%);
+    }
+
+    .calebq__email-container {
+        flex-direction: column-reverse;
+    }
+
+    .calebq__email-header, .calebq__email-pararaph {
+        text-align: center;
+    }
+
+    .calebq__email-form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .calebq__email-header {
+        font-size: 3rem;
+    }
+
+    .calebq__email-pararaph {
+        font-size: 1.25rem;
+    }
+
+    .input, .text-area {
+        font-size: 1.5rem;
+    }
+
+    ::placeholder {
+        font-size: 1.5rem;
+    }
+    
+    .calebq__email-button {
+        width: 7rem;
+        padding: 0.75rem;
+    }
+
+    .calebq__email-image {
+        max-width: 35.375rem;
+    }
+}
+
