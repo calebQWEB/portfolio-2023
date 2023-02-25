@@ -10,4 +10,4 @@ This is my personal portfolio that was created with react.js and vanilla CSS as 
 - email.js
 
 The 3d illustrations in the website was create with midjourney AI
-Follow this [link](https://calebqweb.vercel.app/) to check out the website
+Follow this [link](https://web-calebq.vercel.app/) to check out the website

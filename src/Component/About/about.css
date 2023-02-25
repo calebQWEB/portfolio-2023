@@ -1,93 +1,92 @@
-@media screen and (max-width: 1440px) {
-    .calebq__about-main {
-        padding: 3rem;
-        background: linear-gradient(to right, 
-        var(--secondary) 0%,
-        var(--secondary) 60%,
-        var(--body) 60%,
-        var(--body) 100%);
-    }
-    
-    .calebq__about-header {
-        margin-bottom: 3rem;
-        font-size: 2.125rem;
-        font-family: var(--headers);
-        letter-spacing: 0.25rem;
-    }
-    
-    .calebq__about-header span {
-        color: var(--body);
-    }
-    
-    .calebq__about-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 4rem;
-    }
-    
-    .calebq__about-image {
-        width: 31.25rem;
-    }
-    
-    .calebq__article {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-    
-    .calebq__about-button {
-        width: 20%;
-        padding: 1rem 0;
-    
-        font-weight: 700;
-        font-size: 1rem;
-        background-color: transparent;
-        border: 2px solid var(--body);
-        cursor: pointer;
-        position: relative;
-    
-        z-index: 1;
-    }
-    
-    .calebq__about-button::after {
-        content: '';
-        display: block;
-        background-color: black;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 0;
-    }
-    
-    .calebq__about-button:hover::after {
-        content: '';
-        display: block;
-        background-color: var(--secondary);
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        transition: 0.5s;
-        z-index: -1;
-    }
-    
-    .calebq__article p {
-        font-size: 1.25rem;
-        line-height: 1.8125rem;
-    }
-}
 .calebq__about-main {
     padding: 3rem;
-    background: linear-gradient(to right, 
-    var(--secondary) 0%,
-    var(--secondary) 60%,
-    var(--body) 60%,
-    var(--body) 100%);
+    background: linear-gradient(to right,
+            var(--secondary) 0%,
+            var(--secondary) 60%,
+            var(--body) 60%,
+            var(--body) 100%);
+}
+
+.calebq__about-header {
+    margin-bottom: 3rem;
+    font-size: 2.125rem;
+    font-family: var(--headers);
+    letter-spacing: 0.25rem;
+}
+
+.calebq__about-header span {
+    color: var(--body);
+}
+
+.calebq__about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.calebq__about-image {
+    width: 31.25rem;
+}
+
+.calebq__article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.calebq__about-button {
+    width: 20%;
+    padding: 1rem 0;
+
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid var(--body);
+    cursor: pointer;
+    position: relative;
+
+    z-index: 1;
+}
+
+.calebq__about-button::after {
+    content: '';
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+}
+
+.calebq__about-button:hover::after {
+    content: '';
+    display: block;
+    background-color: var(--secondary);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.calebq__article p {
+    font-size: 1.25rem;
+    line-height: 1.8125rem;
+}
+
+.calebq__about-main {
+    padding: 3rem;
+    background: linear-gradient(to right,
+            var(--secondary) 0%,
+            var(--secondary) 60%,
+            var(--body) 60%,
+            var(--body) 100%);
 
 }
 
@@ -212,11 +211,11 @@
 @media screen and (max-width: 600px) {
     .calebq__about-main {
         padding: 3rem;
-        background: linear-gradient(to bottom, 
-        var(--secondary) 0%,
-        var(--secondary) 60%,
-        var(--body) 60%,
-        var(--body) 100%);
+        background: linear-gradient(to bottom,
+                var(--secondary) 0%,
+                var(--secondary) 60%,
+                var(--body) 60%,
+                var(--body) 100%);
     }
 
     .calebq__about-container {
@@ -256,7 +255,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
     .calebq__about-main {
         padding: 3rem;
     }
@@ -266,8 +265,8 @@
     }
 
     .calebq__article p {
-        font-size: 1.5625rem;
-        line-height: 1.8125rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 
     .calebq__about-image {

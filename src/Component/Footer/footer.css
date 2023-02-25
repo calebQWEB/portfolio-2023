@@ -49,7 +49,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
     .calebq__footer-image {
         width: 2.25rem;
     }

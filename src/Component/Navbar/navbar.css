@@ -1,116 +1,115 @@
-@media screen and (max-width: 1440px) {
-    .calebq__nav {
-        padding: 1rem 3rem;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 100;
-    }
-    
-    .calebq__nav-container {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        position: relative;
-    }
-    
-    .calebq__logo-container {
-        margin-right: auto;
-        display: flex;
-        align-items: center;
-        justify-content:flex-start;
-        gap: 0.25rem;
-    }
-    
-    .calebq__logo {
-        width: 2rem;
-        background-color: var(--body);
-        padding: 0.2rem;
-        cursor: pointer;
-    }
-
-    .calebq__mobile-logo {
-        width: 2rem;
-        background-color: var(--body);
-        padding: 0.2rem;
-        display: none;
-        cursor: pointer;
-    }
-    
-    .calebq__nav-header {
-        font-family: var(--headers);
-        font-size: 1.25rem;
-    }
-    
-    .hamburger {
-        background-color: var(--secondary);
-        padding: 0.3rem;
-        cursor: pointer;
-    }
-    
-    .hidden-nav {
-        position: absolute;
-        top: 100%;
-        right: 0;
-        background-color: var(--secondary);
-        border: 0.25rem solid black;
-        padding: 2rem;
-        border-radius: 1rem;
-    }
-    
-    .hidden-links {
-        list-style: none;
-    }
-    
-    .hidden-links li {
-        cursor: pointer;
-        padding: 1rem;
-    }
-    
-    .hidden-links li a {
-        font-family: var(--headers);
-    }
-    
-    .hidden-links li:hover {
-        background-color: var(--body);
-    }
-    
-    
-    .hamburger span {
-        display: block;
-        background-color: black;
-        width: 2rem;
-        height: 0.25rem;
-        border-radius: 0.5rem;
-        margin: 0.2rem 0;
-    }
-    
-    .calebq__nav-links {
-        list-style: none;
-        display: flex;
-        gap: 1rem;
-    }
-    
-    .calebq__nav-links li {
-        font-size: 1rem;
-        font-weight: 500;
-        font-family: var(--headers);
-        cursor: pointer;
-        letter-spacing: 0.125rem;
-    }
-    
-    .calebq__nav-links li a {
-        cursor: pointer;
-        font-family: var(--headers)
-    }
+.calebq__nav {
+    padding: 1rem 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
+
+.calebq__nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.calebq__logo-container {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+}
+
+.calebq__logo {
+    width: 2rem;
+    background-color: var(--body);
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+.calebq__mobile-logo {
+    width: 2rem;
+    background-color: var(--body);
+    padding: 0.2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.calebq__nav-header {
+    font-family: var(--headers);
+    font-size: 1.25rem;
+}
+
+.hamburger {
+    background-color: var(--secondary);
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.hidden-nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: var(--secondary);
+    border: 0.25rem solid black;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.hidden-links {
+    list-style: none;
+}
+
+.hidden-links li {
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.hidden-links li a {
+    font-family: var(--headers);
+}
+
+.hidden-links li:hover {
+    background-color: var(--body);
+}
+
+
+.hamburger span {
+    display: block;
+    background-color: black;
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 0.5rem;
+    margin: 0.2rem 0;
+}
+
+.calebq__nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.calebq__nav-links li {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--headers);
+    cursor: pointer;
+    letter-spacing: 0.125rem;
+}
+
+.calebq__nav-links li a {
+    cursor: pointer;
+    font-family: var(--headers)
+}
+
 
 @media screen and (max-width: 1024px) {
     .calebq__nav-links li {
         font-size: 0.8rem;
     }
-    
+
     .calebq__nav-links li a {
         cursor: pointer;
         font-family: var(--headers)
@@ -135,7 +134,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
     .calebq__logo {
         width: 3rem;
     }
@@ -148,7 +147,7 @@
         width: 3rem;
     }
 
-        
+
     .calebq__nav-links li {
         font-size: 1.25rem;
     }

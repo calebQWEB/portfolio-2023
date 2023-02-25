@@ -1,106 +1,104 @@
-@media screen and (max-width: 1440px) {
-    .calebq__work-main {
-        margin-top: 5rem;
-        padding:0  3rem;
-    }
-    
-    .calebq__work-header {
-        margin-bottom: 1.5rem;
-        font-size: 2.125rem;
-        font-family: var(--headers);
-        letter-spacing: 0.25rem;
-    }
-    
-    .calebq__work-paragraph {
-        font-weight: 400;
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-    }
-    
-    .calebq__work-header span {
-        color: var(--secondary);
-    }
-    
-    .calebq__work-picture {
-        display: flex;
-        align-items: start;
-        justify-content: center;
-        gap: 2rem;
-    }
-    
-    .calebq__work-article-contiainer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 2rem;
-    }
-    
-    .calebq__work-image {
-        max-width: 25rem;
-    }
-    
-    .calebq__work-image1 {
-        display: none;
-    }
-    
-    .calebq__work-title {
-        font-family: var(--headers);
-        letter-spacing: 0.25rem;
-    }
-    
-    .calebq__work-details {
-        font-size: 1.125rem;
-        line-height: 1.5rem;
-        text-align: center;
-    }
-    
-    .calebq__work-button {
-        width: 100%;
-        padding: 1rem 1.5rem;
-    
-        font-weight: 700;
-        font-size: 1rem;
-        background-color: transparent;
-        border: 2px solid var(--secondary);
-        cursor: pointer;
-        position: relative;
-    
-        z-index: 1;
-    }
-    
-    .calebq__work-button::after {
-        content: '';
-        display: block;
-        background-color: black;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 0;
-    }
-    
-    .calebq__work-button:hover::after {
-        content: '';
-        display: block;
-        background-color: var(--body);
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        transition: 0.5s;
-        z-index: -1;
-    }
+.calebq__work-main {
+    margin-top: 5rem;
+    padding: 0 3rem;
+}
+
+.calebq__work-header {
+    margin-bottom: 1.5rem;
+    font-size: 2.125rem;
+    font-family: var(--headers);
+    letter-spacing: 0.25rem;
+}
+
+.calebq__work-paragraph {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.calebq__work-header span {
+    color: var(--secondary);
+}
+
+.calebq__work-picture {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.calebq__work-article-contiainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.calebq__work-image {
+    max-width: 25rem;
+}
+
+.calebq__work-image1 {
+    display: none;
+}
+
+.calebq__work-title {
+    font-family: var(--headers);
+    letter-spacing: 0.25rem;
+}
+
+.calebq__work-details {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.calebq__work-button {
+    width: 100%;
+    padding: 1rem 1.5rem;
+
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid var(--secondary);
+    cursor: pointer;
+    position: relative;
+
+    z-index: 1;
+}
+
+.calebq__work-button::after {
+    content: '';
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+}
+
+.calebq__work-button:hover::after {
+    content: '';
+    display: block;
+    background-color: var(--body);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: 0.5s;
+    z-index: -1;
 }
 
 @media screen and (max-width: 1024px) {
     .calebq__work-header {
         font-size: 2rem;
     }
-    
+
     .calebq__work-paragraph {
         font-weight: 400;
         font-size: 1.125rem;
@@ -117,7 +115,8 @@
     }
 
     .calebq__work-title {
-        font-size: 1.25rem;;
+        font-size: 1.25rem;
+        ;
     }
 
     .calebq__work-details {
@@ -134,7 +133,7 @@
 
 @media screen and (max-width: 768px) {
     .calebq__work-main {
-        padding: 0  1.5rem;
+        padding: 0 1.5rem;
     }
 
     .calebq__work-picture {
@@ -201,15 +200,15 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
     .calebq__work-header {
         font-size: 3rem;
     }
-    
+
     .calebq__work-paragraph {
         font-size: 1.5rem;
     }
-    
+
     .calebq__work-image {
         max-width: 30rem;
     }
@@ -218,7 +217,7 @@
         letter-spacing: 0.25rem;
         font-size: 2rem;
     }
-    
+
     .calebq__work-details {
         font-size: 1.35rem;
         line-height: 1.5rem;
