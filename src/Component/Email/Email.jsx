@@ -60,18 +60,15 @@ const Email = () => {
                     <div className='name-email'>
                         <div className='input-container'>
                             <input type="text" name='name' placeholder='Name' className='input' />
-                            <span></span>
                         </div>
 
                         <div className='input-container'>
                             <input type="email" name='email' placeholder='Email' className='input' />
-                            <span></span>
                         </div>
                     </div>
 
                     <div className='message-section'>
-                        <textarea name="message" placeholder='Enter your Message' className='text-area' />
-                        <span></span>
+                        <textarea name="message" placeholder='Enter your Message' className='text-area' rows={7}/>
                     </div>
 
                     <button type='submit' className='calebq__email-button'>SEND</button>

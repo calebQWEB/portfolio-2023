@@ -1,0 +1,109 @@
+.project-container {
+    position: relative;
+    perspective: 1000px;
+}
+
+.project-card {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.219);
+    backdrop-filter: blur(30px);
+    border-radius: 1.25rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid gray;
+    color: #fff;
+    padding: 2.5rem;
+    text-align: center;
+
+    margin-top: 3rem;
+    width: 18.75rem;
+    min-height: 15.625rem;
+
+    display: grid;
+    align-items: center;
+
+    backface-visibility: hidden;
+    transition: transform 0.6s ease;
+}
+
+.project-title {
+    font-size: 2rem;
+}
+
+.card-back {
+    position: absolute;
+    width: 18.75rem;
+    min-height: 15.625rem;
+    border-radius: 1.25rem;
+    top: 15%;
+    left: 0;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease;
+    cursor: pointer;
+    background-color: var(--secondary);
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.project-description {
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.project-link {
+    width: 8rem;
+    padding: 0.75rem 2rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid var(--body);
+    cursor: pointer;
+    position: relative;
+
+    z-index: 1;
+}
+
+.project-link::after {
+    content: '';
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+}
+
+.project-link:hover::after {
+    content: '';
+    display: block;
+    background-color: var(--secondary);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.project-container:hover .project-card {
+    transform: rotateY(180deg);
+}
+
+.project-container:hover .card-back {
+    transform: rotateY(0deg);
+}

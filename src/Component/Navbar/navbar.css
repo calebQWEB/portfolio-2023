@@ -118,7 +118,7 @@
 
 @media screen and (max-width: 768px) {
     .calebq__nav {
-        padding: 1rem 1.5rem;
+        padding: 1rem 0.25rem;
     }
 
     .calebq__nav-links {
@@ -129,8 +129,30 @@
         display: none;
     }
 
+    .hamburger {
+        padding: 0.2rem;
+    }
+
+    .hamburger span {
+        width: 1.5rem;
+        height: 0.15rem;
+    }
+
+    .calebq__nav-header {
+        font-size: 0.8rem
+    }
+
     .calebq__mobile-logo {
         display: block;
+        width: 1.5rem;
+    }
+
+    .hidden-links li {
+        padding: 0.5rem;
+    }
+
+    .hidden-links li a {
+        font-size: 0.75rem
     }
 }
 

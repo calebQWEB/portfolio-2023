@@ -137,6 +137,7 @@
     }
 
     .calebq__work-picture {
+        align-items: center;
         flex-direction: column;
         gap: 1rem;
     }

@@ -190,26 +190,6 @@
 
 @media screen and (max-width: 768px) {
     .calebq__about-main {
-        padding: 1.5rem;
-    }
-
-    .calebq__about-container {
-        gap: 1rem;
-        align-items: start;
-    }
-
-    .calebq__about-header {
-        font-size: 1.5rem;
-    }
-
-    .calebq__article p {
-        font-size: 0.8rem;
-        line-height: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .calebq__about-main {
         padding: 3rem;
         background: linear-gradient(to bottom,
                 var(--secondary) 0%,

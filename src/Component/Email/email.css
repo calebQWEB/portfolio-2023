@@ -29,7 +29,6 @@
 .calebq__email-form {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     width: 70%;
 }
 
@@ -38,31 +37,36 @@
     padding: 0.8rem;
     border: none;
     outline: none;
-    background-color: transparent;
     font-size: 1.125rem;
+
+    background: rgba(255, 255, 255, 0.219);
+    backdrop-filter: blur(30px);
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
-.input-container span,
-.message-section span {
-    width: 100%;
-    height: 0.125rem;
-    background-color: black;
-    display: block;
+.name-email {
+    display: grid;
+    gap: 2rem;
 }
 
 .text-area {
     width: 100%;
-    padding: 0 0.8rem;
+    padding: 1rem 0.8rem;
     margin-top: 1rem;
     border: none;
     outline: none;
-    background-color: transparent;
     font-size: 1.125rem;
+
+    background: rgba(255, 255, 255, 0.219);
+    backdrop-filter: blur(30px);
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 ::placeholder {
     font-size: 1.125rem;
-    color: black;
+    color: rgb(56, 56, 56);
 }
 
 .calebq__email-image {
@@ -72,10 +76,12 @@
 .calebq__email-button {
     max-width: 8.25rem;
     padding: 0.8rem;
+    margin-top: 1rem;
     font-weight: 700;
     font-size: 1rem;
     background-color: var(--secondary);
     border: none;
+    border-radius: 0.75rem;
     cursor: pointer;
     position: relative;
 
@@ -125,21 +131,37 @@
 
 @media screen and (max-width: 768px) {
     .calebq__email-main {
+        background: linear-gradient(to bottom,
+                var(--secondary) 0%,
+                var(--secondary) 50%,
+                var(--body) 50%,
+                var(--body) 100%);
+
         padding: 1.5rem;
         margin-top: 7rem;
+    }
+
+    .calebq__email-container {
+        flex-direction: column-reverse;
     }
 
     .calebq__email-header {
         font-size: 1.75rem;
     }
 
-    .calebq__email-image {
+    .calebq__email-header,
+    .calebq__email-pararaph {
+        text-align: center;
+    }
+
+    .calebq__email-form {
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
 
-    .calebq__email-button {
-        width: 6rem;
-        padding: 0.5rem;
+    .calebq__email-image {
+        width: 100%;
     }
 }
 
@@ -154,37 +176,6 @@
 
     .calebq__email-pararaph {
         font-size: 0.8rem;
-    }
-
-    .calebq__email-button {
-        width: 5rem;
-        padding: 0.5rem;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .calebq__email-main {
-        background: linear-gradient(to bottom,
-                var(--secondary) 0%,
-                var(--secondary) 50%,
-                var(--body) 50%,
-                var(--body) 100%);
-    }
-
-    .calebq__email-container {
-        flex-direction: column-reverse;
-    }
-
-    .calebq__email-header,
-    .calebq__email-pararaph {
-        text-align: center;
-    }
-
-    .calebq__email-form {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        width: 100%;
     }
 }
 

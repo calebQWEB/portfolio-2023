@@ -78,7 +78,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .calebq__intro {
         padding: 1.5rem;
         background: linear-gradient(to bottom,
