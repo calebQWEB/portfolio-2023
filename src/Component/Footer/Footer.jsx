@@ -1,9 +1,7 @@
 import React from 'react'
 import './footer.css'
 import logo from '../../assets/innerlogo.png'
-import twitter from '../../assets/twitter-icon.svg'
-import linkedin from '../../assets/linkedin-icon.svg'
-import github from '../../assets/github-icon.svg'
+import {BsTwitter, BsGithub, BsLinkedin} from 'react-icons/bs'
 
 const Footer = () => {
     return (
@@ -13,11 +11,11 @@ const Footer = () => {
                     <img src={logo} alt='Logo' className='calebq__footer-image' />
                     <h1 className='calebq__footer-header'>Caleb</h1>
                 </div>
-                <picture className='calebq__footer-media'>
-                    <a href='https://twitter.com/Calebb_js' target='_blank'><img src={twitter} alt='Twitter icon' className='calebq__footer-link' /></a>
-                    <a href='https://www.linkedin.com/in/caleb-ochai-68033a234/' target='_blank'><img src={linkedin} alt='Linkedin icon' className='calebq__footer-link' /></a>
-                    <a href='https://github.com/calebQWEB' target='_blank'><img src={github} alt='Github icon' className='calebq__footer-link' /></a>
-                </picture>
+                <div className='calebq__footer-media'>                    
+                    <a href="https://twitter.com/Calebb_js" target='_blank'><BsTwitter className='calebq__footer-link'/></a>
+                    <a href="https://www.linkedin.com/in/caleb-ochai-68033a234/" target='_blank'><BsLinkedin className='calebq__footer-link'/></a>
+                    <a href="https://github.com/calebQWEB" target='_blank'><BsGithub className='calebq__footer-link'/></a>
+                </div>
                 <span>calebochai09@gmail.com</span>
             </div>
         </footer>

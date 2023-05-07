@@ -36,7 +36,7 @@ footer {
 }
 
 .calebq__footer-link {
-    width: 1.5rem;
+    color: #000000;
 }
 
 @media screen and (max-width: 600px) {
