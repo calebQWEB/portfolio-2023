@@ -78,6 +78,7 @@
 .calebq__article p {
     font-size: 1.25rem;
     line-height: 1.8125rem;
+    width: 70ch;
 }
 
 .calebq__about-main {
@@ -101,15 +102,12 @@
     color: var(--body);
 }
 
-.calebq__about-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 4rem;
+.skills-container {
+    position: relative;
 }
 
-.calebq__about-image {
-    width: 31.25rem;
+.skills-container > *:not(:first-child) {
+    margin-top: -20px;
 }
 
 .calebq__article {
@@ -199,7 +197,7 @@
     }
 
     .calebq__about-container {
-        gap: 1rem;
+        gap: 4rem;
         align-items: center;
         text-align: center;
         flex-direction: column;
@@ -211,6 +209,12 @@
 
     .calebq__about-image {
         width: 20rem;
+    }
+
+    .calebq__article p {
+        font-size: 1rem;
+        line-height: 1.7rem;
+        width: 100%;
     }
 }
 

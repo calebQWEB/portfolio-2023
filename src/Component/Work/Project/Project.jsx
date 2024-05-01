@@ -1,16 +1,17 @@
 import React from "react";
 import "./project.css";
 
-const Project = ({ projectTitle, description, link }) => {
+const Project = ({image, name, link, details}) => {
     return (
         <div className="project-container">
-            <div className="project-card">
-                <h1 className="project-title">{projectTitle}</h1>
-            </div>
+            <div className="project-sub-container">
+                <img src={image} alt={name}  className="project-image"/>
 
-            <div className="card-back">
-                <p className="project-description">{description}</p>
-                <a href={link} target='_blank'><button className='project-link'>SITE</button></a>
+                <div>
+                    <h2>{name}</h2>
+                    <p>{details}</p>
+                    <a href={link} target="_blank">View Project</a>
+                </div>
             </div>
         </div>
 

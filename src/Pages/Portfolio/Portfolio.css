@@ -1,0 +1,28 @@
+.calebq__portfolio {
+    margin-top: 5rem;
+    padding: 0 3rem;
+}
+
+.calebq__portfolio h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.calebq__project-main {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .calebq__portfolio {
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .calebq__portfolio {
+        padding: 0 1rem;
+    }
+}
